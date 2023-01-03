@@ -5,6 +5,12 @@
     <title>Hello wasm-pack!</title>
   </head>
   <body>
+    <input id="input-image" type="file" accept="image/*">
+    <div id="preview">
+      <canvas id="original-canvas"></canvas>
+      <canvas id="converted-canvas"></canvas>
+    </div>
+
     <noscript>This page contains webassembly and javascript content, please enable javascript in your browser.</noscript>
     <script src="./bootstrap.js"></script>
   </body>
